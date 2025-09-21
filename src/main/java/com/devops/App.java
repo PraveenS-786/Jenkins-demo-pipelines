@@ -20,7 +20,7 @@ public class App {
             BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
             String line;
             while((line = reader.readLine()) != null) {
-                System.out.println("CPU Load Info: " + line);
+                System.out.println("CPU Load Information: " + line);
             }
         } catch (Exception e) {
             System.out.println("Error reading CPU load");
