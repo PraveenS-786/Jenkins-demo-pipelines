@@ -7,7 +7,7 @@ pipeline {
     }
 
     stages {
-        stage('SCM') {
+        stage('SCM1') {
             steps {
                 git branch: 'main', url: 'https://github.com/Venkiemc/Jenkins-demo-pipelines.git'
             }
